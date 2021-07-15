@@ -45,7 +45,7 @@ summary.lm(simpHW)
 ```
 
 ```{r}
-new <- data.frame(HEADWTH=c(5.5,9,8))
+new <- data.frame(HEADWTH=c(5,15,23))
 predict(simpHW,new,se.fit=TRUE)
 ```
 
