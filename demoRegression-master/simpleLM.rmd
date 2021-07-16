@@ -96,8 +96,9 @@ new <- data.frame(CHEST=bears$CHEST[c(5, 15, 23)])
 predict(simpCT,new,se.fit=TRUE)
 ```
 
-The best model was based on HEADLEN. The prediction for the length for bears 5, 15, 23 shows us 70.30793, 51.94202, and 58.82924.
-The actual lengths of the bears was
+The best model was based on HEADLEN. The prediction for the length for bears 5, 15, 23 shows us 70.30793, 51.94202, and 58.82924.  
+
+The actual lengths of the bears was  
 `r bears$LENGTH[c(5, 15, 23)]`
 
 
